@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Roboto;
+    src: url("src/font/Roboto-Bold.ttf");
+}
+
+*{
+    font-family: Roboto, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #362a2a;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+.header{
+    background-color: #362a2a;
+
+}
+
+.sidebar{
+    background-color: #EA6D6D;
+    grid-row: 1 / -1;
+    color: #362a2a;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar .logo{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.logo {
+    display: grid;
+}
+
+.content{
+    background-color: #766C6C;
+}
