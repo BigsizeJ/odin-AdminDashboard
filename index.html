@@ -2,51 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="search">
-                <label for="search">
-                    <img src="src/img/magnify.svg">
-                    <input type="search" name="search" id="search"> 
-                </label>
-            </div>
-            <div class="profile">
-                <img src="img/profile.png" alt="profile picture">
-            </div>
-            <div class="welcome">
-
-            </div>
-            <div class="profile-btn">
-
-            </div>
+    
         </div>
         <div class="sidebar">
             <div class="logo">
-                <img class="logo-svg" src="src/img/xml.png">
+                <img class="svg" src="src/img/dashboard.svg" alt="logo">
                 <p>Dashboard</p>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#" id="home">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Messages</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Task</a></li>
-                    <li><a href="#">Communities</a></li>
-                </ul>
+            <div class="nav">
+                <div class="nav-top">
+                    <label for="home">
+                        <img class="svg" src="src/img/home.svg" alt="">
+                        Home
+                    </label>
+                    <label for="profile">
+                        <img class="svg" src="src/img/profile.svg" alt="">
+                        Profile
+                    </label>
+                    <label for="message">
+                        <img class="svg" src="src/img/messages.svg" alt="">
+                        Message
+                    </label>
+                    <label for="history">
+                        <img class="svg" src="src/img/history.svg" alt="">
+                        History
+                    </label>
+                    <label for="task">
+                        <img class="svg" src="src/img/task.svg" alt="">
+                        Tasks
+                    </label>
+                    <label for="community">
+                        <img class="svg" src="src/img/community.svg" alt="">
+                        Communities
+                    </label>
+                </div>
+                <div class="nav-bottom">
+                    <label for="Setting">
+                        <img class="svg" src="src/img/setting.svg" alt="">
+                        Settings
+                    </label>
+                    <label for="Support">
+                        <img class="svg" src="src/img/help.svg" alt="">
+                        Support
+                    </label>
+                    <label for="Privacy">
+                        <img class="svg" src="src/img/privacy.svg" alt="">
+                        Privacy
+                    </label>
+                </div>
             </div>
+            
         </div>
         <div class="content">
-    
+            
         </div>
     </div>
-
 </body>
 </html>
