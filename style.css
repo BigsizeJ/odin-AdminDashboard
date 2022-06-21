@@ -299,7 +299,7 @@ body{
     background-color: var(--headerColor);
     border-radius: 10px;
     box-shadow: 1px 1px 5px gray;
-    padding: 30px;
+    padding: 25px;
 }
 
 .ann-content p{
