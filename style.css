@@ -271,11 +271,21 @@ body{
     width: 28px;
 }
 
+.btn-content img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btn-content img:active{
+    cursor: pointer;
+    transform: translateY(1px);
+}
+
 .right-content{
     display: grid;
     grid-template-columns: minmax(100px, 300px);
-    grid-template-rows: repeat(auto-fit, 1fr);
- 
+    grid-template-rows: min-content;
+  
 }
 
 .announcement{
@@ -306,6 +316,34 @@ body{
     margin: 20px 0px;
     height: 1px;
     background-color: gray;
+}
+
+.trend-content{
+    background-color: var(--headerColor);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: flex-start;
+    place-items: flex-start;
+    box-shadow: 1px 3px 5px gray;
+    gap: 10px;
+}
+
+.trend-content > img{
+    border-radius: 100%;
+    width: 40px;
+    border: 2px solid gray;
+}
+
+.trend-content p{
+
+    padding: 2px;
+    margin: 0;
+}
+
+.trend-content > .userbox > .proj{
+    color: #636363;
 }
 
 .svg{
